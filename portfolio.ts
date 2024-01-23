@@ -125,7 +125,7 @@ export const experience: ExperienceType[] = [
   {
     role: "Software Engineer Intern",
     company: "FPT Asia Pacific",
-    companyLogo: "/img/icons/common/duseca_software_logo.jpeg",
+    companyLogo: "/img/icons/common/fpt.png",
     date: "Jan 2022 - Sept 2023",
     desc: "Crafted robust mobile application backends employing Django, Python, and REST APIs. Leveraged Django REST Framework, PostgreSQL, AWS, Firebase, Stripe, and WebSocket for efficient development. Collaborated across teams to surpass client expectations. Designed intuitive UIs, empowering clients to effortlessly manage their applications with a visually captivating interface.",
     // descBullets: [
@@ -136,14 +136,14 @@ export const experience: ExperienceType[] = [
   {
     role: "Software Engineer Intern",
     company: "FPT Software",
-    companyLogo: "/img/icons/common/zrtech.jpeg",
+    companyLogo: "/img/icons/common/fpt.png",
     date: "Aug 2022 - Jun 2023",
     desc: "Crafting diverse web applications, I've elevated functionality and user engagement. Spearheaded Visual Portfolio, leveraging AI for captivating presentations from parsed text. Proficiently set up and optimized applications on Linux servers, guaranteeing smooth scalability and top-notch performance for seamless user experiences.",
   },
   {
     role: "Software Engineer Intern",
     company: "Proccoli",
-    companyLogo: "/img/icons/common/bleedAI.jpg",
+    companyLogo: "http://www.proccoli.com/assets/images/logo.svg",
     date: "Sept 2021 - Oct 2021",
     desc: "As a Django developer at Bleed AI, I integrated a computer vision AI model to process YouTube URLs on a website. I used Django Channels and Websockets to show real-time processing and implemented threading to run multiple instances of the AI model. I also used jQuery for UI rendering and deployed the website on a Heroku server.",
   },
