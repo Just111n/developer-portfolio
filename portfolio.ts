@@ -16,7 +16,8 @@ export const greetings: GreetingsType = {
   title: "Hi all, I'm Justin",
   description:
     "I'm a passionate Full Stack web developer with experience developing Full Stack web applications with Python, Django, React.js, and Cloud Technologies. I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
-  resumeLink: "https://docs.google.com/document/d/1xvZxfABaTPM0mBdQffCvnqP9ASSEFARnA8qASt2VCxM/edit#heading=h.254fhrj2ehjh",
+  resumeLink:
+    "https://docs.google.com/document/d/1xvZxfABaTPM0mBdQffCvnqP9ASSEFARnA8qASt2VCxM/edit#heading=h.254fhrj2ehjh",
 };
 
 export const openSource = {
@@ -127,7 +128,7 @@ export const experience: ExperienceType[] = [
     company: "FPT Asia Pacific",
     companyLogo: "/img/icons/common/fpt.png",
     date: "Jan 2022 - Sept 2023",
-    desc: "Crafted robust mobile application backends employing Django, Python, and REST APIs. Leveraged Django REST Framework, PostgreSQL, AWS, Firebase, Stripe, and WebSocket for efficient development. Collaborated across teams to surpass client expectations. Designed intuitive UIs, empowering clients to effortlessly manage their applications with a visually captivating interface.",
+    desc: "Developed an AI-powered chatbot using ReactJS, Python FastAPI, and OpenAI's API, enabling advanced functionalities like file uploads and vector search, demonstrating innovation in solving complex problems.Implemented Docker for efficient application deployment, ensuring consistent operation across different environments, which highlights your skills in modern deployment technologies and best practices.Utilized GitHub Actions for Continuous Integration and Continuous Deployment (CI/CD), streamlining the development process and maintaining high code quality, showing your proficiency in software development and version control.",
     // descBullets: [
     // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
     // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -138,14 +139,14 @@ export const experience: ExperienceType[] = [
     company: "FPT Software",
     companyLogo: "/img/icons/common/fpt.png",
     date: "Aug 2022 - Jun 2023",
-    desc: "Crafting diverse web applications, I've elevated functionality and user engagement. Spearheaded Visual Portfolio, leveraging AI for captivating presentations from parsed text. Proficiently set up and optimized applications on Linux servers, guaranteeing smooth scalability and top-notch performance for seamless user experiences.",
+    desc: "Specialized in front-end development for a digital health platform, using TypeScript, Redux Saga, and Material-UI to build and enhance chat message functionality. This pivotal feature allows doctors and clinicians to communicate remotely with patients, facilitating efficient and accessible healthcare.Contributed to the development of a user-centric interface, ensuring that the chat system is intuitive, responsive, and reliable for both healthcare professionals and patients.Collaborated closely with cross-functional teams to integrate chat functionality seamlessly with the platform's broader features, demonstrating strong teamwork and a commitment to creating a cohesive user experience.",
   },
   {
     role: "Software Engineer Intern",
     company: "Proccoli",
-    companyLogo: "http://www.proccoli.com/assets/images/logo.svg",
+    companyLogo: "/img/icons/common/proccoli.png",
     date: "Sept 2021 - Oct 2021",
-    desc: "As a Django developer at Bleed AI, I integrated a computer vision AI model to process YouTube URLs on a website. I used Django Channels and Websockets to show real-time processing and implemented threading to run multiple instances of the AI model. I also used jQuery for UI rendering and deployed the website on a Heroku server.",
+    desc: "Develop the front-end of admin site web application using ReactJs and Typescript so that admin accounts can help users to make changes to their account if they face any problems.Enabled admin accounts to make edits to company blog posts.Collaborate and coordinate with web design and back-end developer of admin site web application.Program a bot on telegram using Python.",
   },
 ];
 
@@ -153,45 +154,45 @@ export const projects: ProjectType[] = [
   {
     name: "Keep Mern",
     desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-    github: "https://github.com/Just111n/developer-portfolio",
-    link: "https://developer-portfolio-Just111n.vercel.app/",
+    github: "https://github.com/Just111n/KeepMERN",
+    link: "https://keep-mern.vercel.app/",
   },
   {
     name: "Chatbot",
     desc: "A Podcast Platform where creators can easily publish and sell their podcasts, and users can purchase with Handcash BitcoinSV, the future of fast and secure transactions.",
-    link: "https://gibeo.io/",
+    // link: "https://gibeo.io/",
   },
   {
     name: "Telegram Bot",
-    desc: "O Mejor Oferta is a mobile marketplace for buying and selling items nearby, helping users find deals on things they want and make money from items they no longer need.",
-    link: "https://play.google.com/store/apps/details?id=com.duseca.mejor_oferta",
+    desc: "Telegram Bot that can help you to quickly find the id of people in your database. No longer need to manually search for the id of people in your database.",
+    github: "https://github.com/Just111n/nodejs-telegram-bot",
   },
   {
     name: "Waywise",
-    desc: "A Ecommerce Platform, where shopping meets the future! With HandCash BitcoinSV integration, you can authenticate and purchase products with ease and confidence.",
-    link: "https://hooliganculture.com/",
+    desc: "A web app that helps you to book taxi rides in advance according to your itinierary easily.",
+    // link: "https://hooliganculture.com/",
   },
 ];
 
 export const feedbacks: FeedbackType[] = [
-//   {
-//     name: "Syed Jamal",
-//     role: "Frontend Developer at Meganos Software",
-//     feedback:
-//       "You were a wonderful addition to our team, alhumdulillah. I'm quite impressed with your abilities and professional practices. You approach problems from a unique perspective and always ask the right question. Finding a good teammate like justin is extremely difficult. He has contributed to the growth of our organization and continues to do so. May Allah bless you with everything you desire.",
-//   },
-//   {
-//     name: "Wajahat Malek",
-//     role: "CEO at Duseca Software",
-//     feedback:
-//       "justin has a deep understanding of web development technologies and is adept at using them to build scalable, robust, and secure web applications. He has worked on various projects, ranging from small-scale to large-scale, and has shown his ability to work collaboratively with others while maintaining a high level of productivity and quality. justin is a pleasure to work with, and I have no doubt that he will be an asset to any team or organization. I highly recommend justin for any Full Stack Django, React.js, or Blockchain development projects, and I wish him all the best in his future endeavors.",
-//   },
-//   {
-//     name: "Zaid Zaffar",
-//     role: "CEO at ZR Technologies",
-//     feedback:
-//       "Very skilled at what he does and has an in depth knowledge of Django and he's always ready to handle any challenges thrown at him. He's been a valuable member of my team and i look forward to working with him in the years to come",
-//   },
+  //   {
+  //     name: "Syed Jamal",
+  //     role: "Frontend Developer at Meganos Software",
+  //     feedback:
+  //       "You were a wonderful addition to our team, alhumdulillah. I'm quite impressed with your abilities and professional practices. You approach problems from a unique perspective and always ask the right question. Finding a good teammate like justin is extremely difficult. He has contributed to the growth of our organization and continues to do so. May Allah bless you with everything you desire.",
+  //   },
+  //   {
+  //     name: "Wajahat Malek",
+  //     role: "CEO at Duseca Software",
+  //     feedback:
+  //       "justin has a deep understanding of web development technologies and is adept at using them to build scalable, robust, and secure web applications. He has worked on various projects, ranging from small-scale to large-scale, and has shown his ability to work collaboratively with others while maintaining a high level of productivity and quality. justin is a pleasure to work with, and I have no doubt that he will be an asset to any team or organization. I highly recommend justin for any Full Stack Django, React.js, or Blockchain development projects, and I wish him all the best in his future endeavors.",
+  //   },
+  //   {
+  //     name: "Zaid Zaffar",
+  //     role: "CEO at ZR Technologies",
+  //     feedback:
+  //       "Very skilled at what he does and has an in depth knowledge of Django and he's always ready to handle any challenges thrown at him. He's been a valuable member of my team and i look forward to working with him in the years to come",
+  //   },
 ];
 
 // See object prototype on /types/section.ts page
