@@ -159,7 +159,7 @@ export const projects: ProjectType[] = [
   },
   {
     name: "Chatbot",
-    desc: "A Podcast Platform where creators can easily publish and sell their podcasts, and users can purchase with Handcash BitcoinSV, the future of fast and secure transactions.",
+    desc: "A chatbot UI template that can be used to build chatbots for websites. It is built with React.js and styled-components.",
     // link: "https://gibeo.io/",
   },
   {
