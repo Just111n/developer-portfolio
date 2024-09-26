@@ -172,6 +172,11 @@ export const projects: ProjectType[] = [
     desc: "A web app that helps you to book taxi rides in advance according to your itinierary easily.",
     // link: "https://hooliganculture.com/",
   },
+  {
+    name: "Othello Game",
+    desc: "Othello game is created with Python.",
+    // link: "https://hooliganculture.com/",
+  },
 ];
 
 export const feedbacks: FeedbackType[] = [
