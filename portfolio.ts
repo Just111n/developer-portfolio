@@ -175,7 +175,7 @@ export const projects: ProjectType[] = [
   {
     name: "Othello Game",
     desc: "This is a Python implementation of the traditional Othello game, featuring a graphical user interface (GUI) built using Tkinter.",
-    link: "https://github.com/Just111n/Othello-Game/tree/main",
+    github: "https://github.com/Just111n/Othello-Game/tree/main",
   },
 ];
 
