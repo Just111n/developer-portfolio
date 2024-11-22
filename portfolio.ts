@@ -177,6 +177,12 @@ export const projects: ProjectType[] = [
     desc: "This is a Python implementation of the traditional Othello game, featuring a graphical user interface (GUI) built using Tkinter.",
     github: "https://github.com/Just111n/Othello-Game/tree/main",
   },
+  {
+    name: "Quiz Webapp",
+    desc: "This is a quiz web app that was developed using React",
+    github: "https://github.com/Just111n/quiz-webapp",
+    link:"https://quiz-webapp-brown.vercel.app/"
+  },
 ];
 
 export const feedbacks: FeedbackType[] = [
